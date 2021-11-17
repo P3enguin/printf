@@ -6,7 +6,7 @@
 /*   By: ybensell <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/15 12:49:30 by ybensell          #+#    #+#             */
-/*   Updated: 2021/11/17 07:12:40 by ybensell         ###   ########.fr       */
+/*   Updated: 2021/11/17 07:37:25 by ybensell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@
 # include<stdlib.h>
 
 int		ft_printf(const char *fmt, ...);
-int		ft_is_conversion(const char *fmt);
 int		ft_print(va_list str, const char *fmt);
 void	ft_putstr(char *s);
 int		ft_print_char(va_list str, const char *fmt);
